@@ -1,0 +1,91 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color:#202124;
+}
+
+ .barranav{
+   
+height: 150px;
+
+ }
+
+.link{
+    padding: 20px 30px;
+    float: right;
+    display: inline-flex;     
+} 
+
+.link a{
+  color: white;
+  padding-left: 20px;
+  padding-top: 6px;
+  text-decoration: none;  
+}
+
+.iniciarsesion{
+    margin-left: 60px;
+    color: rgb(0, 0, 0);
+    background-color: blue;
+    border: 0;
+    height:30px;
+}
+
+
+.portada{
+    padding-top: 20px;
+    text-align: center;
+}
+.logogoogle{
+    width: 250px;
+       
+}
+
+.buscador{
+    text-align: center;
+    
+}
+
+.lupa {
+display: inline-block;
+}
+.buscadortext{
+    background-color: transparent;
+    border: 1px solid rgb(91, 91, 91);
+    border-radius: 30px;
+    width: 500px;
+    height: 40px;
+    
+}
+
+.botonesgv{
+    text-align: center;
+    padding-top: 10px;
+    }
+   
+
+.botonesgv input{
+    margin-left:5px ;
+    background-color: #303134;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 33px;
+}
+.lupa{
+    display: inline-flex;
+    
+    }
+
+.otros{
+    text-align: center;
+}
+.otros p{
+    
+    color: white;
+    display: inline-block;
+}
+.otros a{
+    text-decoration: none;
+    color: #2067D6
+}
