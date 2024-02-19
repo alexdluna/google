@@ -2,6 +2,8 @@ html,body{
     padding: 0;
     margin: 0;
     background-color:#202124;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
  .barranav{
@@ -11,7 +13,7 @@ height: 150px;
  }
 
 .link{
-    padding: 20px 30px;
+    padding: 10px 20px;
     float: right;
     display: inline-flex;     
 } 
@@ -19,16 +21,18 @@ height: 150px;
 .link a{
   color: white;
   padding-left: 20px;
-  padding-top: 6px;
+  padding-top: 15px;
   text-decoration: none;  
 }
 
 .iniciarsesion{
     margin-left: 60px;
     color: rgb(0, 0, 0);
-    background-color: blue;
+    background-color: #8ab4f8;
     border: 0;
-    height:30px;
+    border-radius: 5px;
+    height:40px;
+    width: 120px;
 }
 
 
@@ -63,7 +67,10 @@ display: inline-block;
     padding-top: 10px;
     }
    
-
+.botonesgv input:hover{
+    background-color:none;
+    border: 1px solid rgb(91, 91, 91);
+}
 .botonesgv input{
     margin-left:5px ;
     background-color: #303134;
